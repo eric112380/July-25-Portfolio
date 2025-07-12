@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/265f4428e2.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Orbitron:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+  <title>Graphic Designer Portfolio</title>
+</head>
+
+<!-- ... same <head> content ... -->
+<body>
+  <div class="background">
+    <div class="background-image">
+      <img src="terry-vlisidis-WsEbnsnKbUE-unsplash.jpg" alt="Background Image" class="background-img" />
+    </div>
+  </div>
+
+  <header class="header">
+    <nav class="navbar">
+      <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#References">References</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-content" id="Home">
+      <h1 class="welcome-h1">Welcome to My Portfolio</h1>
+      <p class="welcome-p">Explore my work and skills as a Graphic Designer.</p>
+    </div>
+  </header>
+
+  <main>
+    <!-- Profile Section -->
+    <section class="profile">
+      <div class="profile-img">
+        <img src="profile-4.jpg" alt="Profile Picture" class="profile-pic" />
+      </div>
+
+      <div class="profile-info">
+        <h2>Hi, my name is Sinaye!</h2>
+        <h3>Frontend Web Developer and Graphic Designer</h3>
+        <p>
+          I will be a valuable asset to your company as a design-focused professional with strong technical and creative skills. I have experience in graphic and web design, with a particular strength in creating compelling marketing materials using tools like Adobe InDesign, Canva, and other Adobe Creative Suite applications.
+I’m highly computer literate, quick to adapt to new tools, and skilled in both design execution and production support—from formatting documents with speed and precision to troubleshooting office technology. I consistently deliver high-quality, brand-aligned results across creative and administrative tasks.
+        </p>
+       <div class="profile-buttons">
+<input type="button" value="View My Work" onclick="document.getElementById('skills').scrollIntoView({ behavior: 'smooth' });" class="button-left" />
+  <input type="button" value="Download CV" onclick="window.location.href= 'https://github.com/eric112380/Sinaye-Latest-Resume/tree/main' " class="button-right" />
+  <input type="button" value="Contact Me" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });" class="button-contact" />
+</div>
+      </div>
+    </section>
+    
+  
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+           <h2 class="skill-h2">Skills</h2>
+      <div class="skill-icons">
+        <i class="fa-brands fa-html5"></i><p>HTML</p>
+        <i class="fa-brands fa-css3-alt"></i><p>CSS</p>
+        <i class="fa-brands fa-js"></i><p>JavaScript</p>
+        <i class="fa-solid fa-pencil"></i><p>Adobe Creative</p>
+        <i class="fa-solid fa-laptop"></i><p>Canva</p>
+        <i class="fa-solid fa-file-word"></i><p>Microsoft Office</p>
+      </div>
+      <div class="skill-names">
+        <p>My skills in graphic design, web development, and office productivity tools will ensure your needs are met with care, attention to detail, and respect for your time. I’m highly competent in platforms like Canva and consistently improving my abilities in the Adobe Creative Suite to offer even more refined design solutions. I work efficiently with Microsoft Word (typing 50+ words per minute) and am proficient in PowerPoint, Excel, and Publisher, helping to keep documents clear, well-organized, and professional. With a working knowledge of HTML, CSS, and JavaScript, I can also support basic web-related tasks. I take deadlines seriously and always aim to deliver quality work that reflects your goals while staying open to feedback and ongoing learning. </p>
+    </section>
+
+
+   <!-- References Section -->
+<section class="references" id="References">
+  <h2 class="center-h2">Testimonials</h2>
+
+  <div class="ref-container">
+    <div class="ref-card Tim">
+      <img src="Tim-pic.jpg" alt="Tim Chisale" class="ref-img">
+      <h3>Tim Chisale</h3>
+      <h4>Facilitator</h4>
+      <h4>Ubuntu Assessor Solutions</h4>
+      <p>“Sinaye is highly professional, creative, and consistently delivers outstanding service. I was particularly impressed with the design of my business cards, which exceeded my expectations. His attention to detail and commitment to quality make him a pleasure to work with.”</p>
+    </div>
+
+    <div class="ref-card Mtshali">
+      <img src="hans-eiskonen-wn57cSQ7VzI-unsplash.jpg" alt="Sibusiso Mtshali" class="ref-img">
+      <h3>Sibusiso Mtshali</h3>
+      <h4>Director</h4>
+      <h4>Unyazi Investments</h4>
+      <p>“I am truly impressed by Sinaye’s dedication and work ethic, especially at such a young age. He approaches every task with enthusiasm and ensures that the final outcome meets the highest standards. His drive and professionalism are rare and commendable.”</p>
+    </div>
+
+    <div class="ref-card Ndawo">
+      <img src="Siyamthanda-pic.jpg" alt="Siyamthanda Ndawo" class="ref-img">
+      <h3>Siyamthanda Ndawo</h3>
+      <h4>Chairperson</h4>
+      <h4>TFBC Youth Ministry</h4>
+      <p>“Sinaye is dependable, dedicated, and always brings creative insight to every project. Whether we need program designs or welcoming visuals for events, he is our go-to person. His leadership and passion for excellence consistently shine through his work.”</p>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section class="contact-details" id="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-icons">
+        <a href="mailto:zulusinaye254@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+        <a href="https://wa.me/+27818415128"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        <a href="https://github.com/eric112380"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Sinaye Zulu. All rights reserved.</p>
+  </footer>
+</body>
+</html>
